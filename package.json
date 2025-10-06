@@ -1,0 +1,22 @@
+{
+  "name": "expressjs-2025",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kartik0s1s/Expressjs-Practice-Projects---More.git"
+  },
+  "author": "Kartik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kartik0s1s/Expressjs-Practice-Projects---More/issues"
+  },
+  "homepage": "https://github.com/Kartik0s1s/Expressjs-Practice-Projects---More#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
