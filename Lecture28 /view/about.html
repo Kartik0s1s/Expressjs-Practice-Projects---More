@@ -1,11 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About </title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #84fab0, #8fd3f4);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3rem;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #444;
+      margin-bottom: 30px;
+      max-width: 500px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: white;
+      background-color: #17a2b8;
+      padding: 10px 20px;
+      border-radius: 6px;
+      margin: 0 10px;
+      transition: background-color 0.3s ease;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      background-color: #117a8b;
+    }
+  </style>
 </head>
 <body>
-    <h1>This is aboy page </h1>
+  <h1>About Us</h1>
+  <p>Welcome to our simple Express app! This website demonstrates basic routing and page navigation using HTML, CSS, and Node.js.</p>
+  <nav>
+    <a href="/">Go to Home</a>
+    <a href="/login">Go to Login</a>
+  </nav>
 </body>
 </html>

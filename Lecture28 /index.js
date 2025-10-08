@@ -18,4 +18,9 @@ app.get("/about", (req, resp)=>{
       resp.sendFile(abs)
 })
 
+app.use((req, resp)=>{
+      const abs= path.resolve('view/404.html')
+      resp.status(404).sendFile(abs)
+})
+
 app.listen(3000);
