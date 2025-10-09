@@ -15,8 +15,8 @@ data+='</ul>'
 });
 
 app.get("/user/:name", (req, resp)=>{
-    const userName= req.params.name;
-    resp.send(`This is ${userName}'s Profile`)
+    const userName=  req.params.name;
+    resp.send(`This is  ${userName}'s Profile`)
 })
 
 
