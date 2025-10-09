@@ -1,0 +1,22 @@
+<html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UserList</title>
+</head>
+<body>
+    <h1>User List</h1>
+    <ul>
+        <%for(let i=0; i < users.length; i++){%>
+            <li> <%=users[i] %> </li>
+        <% }%>
+    </ul>    
+    </ul>
+    <%if(isLogin){%>
+     <h2>User is Loged in </h2>
+    <%} else {%>
+        <h2>User is not Loged in </h2>
+        <%}%>
+</body>
+</html></html>
