@@ -10,6 +10,7 @@ for ( let i =0 ; i<users.length;i++){
    
 }
 
+
 data+='</ul>'
  resp.send(data) 
 });
@@ -28,3 +29,5 @@ app.get("/user/:name", (req, resp)=>{
 app.listen(3000, () => {
   console.log("✅ Server running on http://localhost:3000");
 });
+
+
